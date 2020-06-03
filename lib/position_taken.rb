@@ -2,12 +2,14 @@
 def position_taken? (board, index)
 
   current_board_player = board[index]
-  if current_board_player == " " || current_board_player == ""
+  
+  if (current_board_player == " ") || (current_board_player == "")
     true
   elsif current_board_player == "X"
     true
   elsif current_board_player == "O"
     true
   else false
+  end
 
 end
